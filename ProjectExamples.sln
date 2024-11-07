@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationDemo", "WebApplicationDemo\WebApplicationDemo.csproj", "{E7B32B9C-8055-4E3E-A5BA-A230C092E39A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{D688E6A8-008E-4EDC-9B3B-BCC2F18B83C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppDemo", "BlazorAppDemo\BlazorAppDemo.csproj", "{F9FF949F-28F5-4342-9119-E5098DC0E09E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blazor", "Blazor", "{A6A5E7A1-1F55-45F6-9E94-D119FDAD80A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,21 @@ Global
 		{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B32B9C-8055-4E3E-A5BA-A230C092E39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B32B9C-8055-4E3E-A5BA-A230C092E39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B32B9C-8055-4E3E-A5BA-A230C092E39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B32B9C-8055-4E3E-A5BA-A230C092E39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FF949F-28F5-4342-9119-E5098DC0E09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FF949F-28F5-4342-9119-E5098DC0E09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FF949F-28F5-4342-9119-E5098DC0E09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FF949F-28F5-4342-9119-E5098DC0E09E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7B32B9C-8055-4E3E-A5BA-A230C092E39A} = {D688E6A8-008E-4EDC-9B3B-BCC2F18B83C5}
+		{F9FF949F-28F5-4342-9119-E5098DC0E09E} = {A6A5E7A1-1F55-45F6-9E94-D119FDAD80A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {976AC7B8-356F-459D-A28E-97CBFF7A5392}
