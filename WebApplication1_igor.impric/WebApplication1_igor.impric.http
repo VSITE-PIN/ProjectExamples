@@ -1,0 +1,6 @@
+@WebApplication1_igor.impric_HostAddress = http://localhost:5069
+
+GET {{WebApplication1_igor.impric_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

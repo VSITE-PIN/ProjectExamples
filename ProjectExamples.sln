@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1_igor.impric", "WebApplication1_igor.impric\WebApplication1_igor.impric.csproj", "{C75C79BD-4E02-42C3-9A19-6B33E13B66EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_mvc_igor.impric", "WebApplication_mvc_igor.impric\WebApplication_mvc_igor.impric.csproj", "{ED54E163-8A11-4576-A4FE-2FA50D44C04D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{F02F0CD9-652D-409B-BB7D-57BF8D27CD5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{634F2FCD-2FD0-4515-989C-4CC7E57F98F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75C79BD-4E02-42C3-9A19-6B33E13B66EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75C79BD-4E02-42C3-9A19-6B33E13B66EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75C79BD-4E02-42C3-9A19-6B33E13B66EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75C79BD-4E02-42C3-9A19-6B33E13B66EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED54E163-8A11-4576-A4FE-2FA50D44C04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED54E163-8A11-4576-A4FE-2FA50D44C04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED54E163-8A11-4576-A4FE-2FA50D44C04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED54E163-8A11-4576-A4FE-2FA50D44C04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02F0CD9-652D-409B-BB7D-57BF8D27CD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02F0CD9-652D-409B-BB7D-57BF8D27CD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02F0CD9-652D-409B-BB7D-57BF8D27CD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02F0CD9-652D-409B-BB7D-57BF8D27CD5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
